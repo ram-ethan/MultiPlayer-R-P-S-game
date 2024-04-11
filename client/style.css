@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containe {
+    min-height: 100vh;
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+}
+
+.loose {
+    font-weight: 600;
+    font-size: 2vw;
+    color: #ff1919;
+}
+
+.win {
+    font-weight: 600;
+    font-size: 2vw;
+    color: #28d811;
+}
+
+.draw {
+    font-weight: 600;
+    font-size: 2vw;
+    color: #e7dbdb;
+}
+
+#waitarea {
+    color: #5ddd62;
+    font-size: 2vw;
+    /* font-style: italic; */
+    font-family: cursive;
+}
+
+#copy {
+
+    display: block;
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 1.1vw;
+    background: #ffc06e;
+    /* font-weight: 800; */
+    font-family: fantasy;
+}
+
+.initial {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    justify-content: space-between;
+    min-width: 16vw;
+    padding: 2vw;
+    border: 1px solid #a4e1ff;
+    background: #07212e;
+    border-radius: 6px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: #cdd568;
+    padding: 0.3vw;
+    border-radius: 3px;
+}
+
+.headings {
+    font-size: 4vw;
+    color: beige;
+}
+
+.or {
+    color: #ff9d9d;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2vw;
+}
+
+.ijx,
+#addon,
+#adddon,
+.adding {
+
+    height: 16vh;
+    width: 18vh;
+    border: none;
+
+    border-radius: 9px;
+}
+
+#opponentState {
+    font-size: 2.5vw;
+    color: green;
+    font-family: cursive;
+}
+
+
+#adonimg {
+    height: 100%;
+    /* transform: rotate(-90deg); */
+
+}
+
+.scissor {
+    transform: scaleX(-1);
+}
+
+.rockk {
+    transform: rotate(90deg) scaleX(-1);
+}
+
+/* #ssss {
+   
+} */
+
+#player1Choice,
+#player2Choice {
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+    gap: 2vw;
+
+}
